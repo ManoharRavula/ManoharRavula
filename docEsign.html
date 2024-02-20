@@ -1,1 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/mr.png" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+        <div class="header-top">
+            <div class="container">
+
+                <ul class="header-top-list">
+
+                    <li class="nolist">
+                        <a href="mailto:manohar.ravula3@gmail.com" class="header-top-link">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <span>manohar.ravula3@gmail.com</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="wrapper">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container" style="display: flex;">
+                <img src="./assets/images/mr.png" height="50px" alt="Logo">
+                <div class="titlefont">Manohar Ravulapalli</div>
+                <a href="#" class="logo">
+
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+    <main>
+        <article>
+            <section class="hero" id="home">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <h2 class="h1 hero-title">QuickEsigning - Digital Document Signing Platform</h2>
+
+                        <p class="hero-text">
+                            QuickEsigning is one of the best personal project I've worked on as a developer.
+                            It combines easy-to-use design with strong technology to make signing documents online
+                            smooth and easy.
+                            Built with Angular and Firebase, and enhanced with the graphical capabilities of fabric.js,
+                            this application is a
+                            testament to the power of modern web development.
+                            <br />
+                            <small>Some of the videos were uploaded below</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <video loop autoplay muted>
+                        <source src="./assets/videos/first.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p><small><b>Effortless Gmail login and template creation.</b></small></p>
+                    <video loop autoplay muted>
+                        <source src="./assets/videos/second.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p><small><b>Retrieving template, adding fields and sending document.</b></small></p>
+                    <video loop autoplay muted>
+                        <source src="./assets/videos/third.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p><small><b>Accurate display of fields for signing the
+                                document.</b></small></p>
+                </div>
+                <!-- <div class="container carousel">
+                    <ul class="blog-list has-scrollbar">
+
+                        <li>
+                            <div class="blog-card">
+                                <img src="./assets/images/sim1.png">
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <img src="./assets/images/sim2.png">
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <img src="./assets/images/sim3.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="blog-card">
+                                <img src="./assets/images/sim4.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="blog-card">
+                                <img src="./assets/images/sim5.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="blog-card">
+                                <img src="./assets/images/sim6.png">
+                            </div>
+                        </li>
+
+                    </ul>
+                </div> -->
+            </section>
+            <div class="hero container ">
+                <h2 class="h2">Technologies Used</h2>
+                <ul style="padding: 10px;">
+                    <li class="about-item">
+                        <p><b>Angular</b>: For a responsive and dynamic single-page application interface.</p>
+                    </li>
+
+                    <li class="about-item">
+                        <p><b>Firebase</b>: Leveraging authentication, real-time database, and storage capabilities for
+                            user management and template
+                            storage.</p>
+                    </li>
+
+                    <li class="about-item">
+                        <p><b>Fabric.js</b>: To embed PDFs into a canvas, allowing users to place and manipulate
+                            signature fields with precision.</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="container featuress">
+                <h2 class="h2">Features and Functionalities</h2>
+                <ul style="padding: 10px;">
+                    <li>
+                        <p><b>Gmail Integration</b>: Streamlined user login using Gmail for quick and secure access.</p>
+                    </li>
+                    <li>
+                        <p><b>Template Creation</b>: Users can upload documents to create customizable templates, stored
+                            securely in Firestore.</p>
+                    </li>
+                    <li>
+                        <p><b>Interactive Canvas</b>: Utilizing fabric.js, the app allows for dragging, resizing, and
+                            placing signature fields directly
+                            onto the document canvas.</p>
+                    </li>
+                    <li>
+                        <p><b>Collaboration and Sharing</b>: Easy sending of documents to other users for signing, with
+                            accurate placement of fields using stored metadata.
+                        </p>
+                    </li>
+                    <li>
+                        <p><b>Fields Accuracy</b>: The dimensions of signatures and images are automatically set based
+                            on the
+                            size of the fields created, including both
+                            height and width.</p>
+                    </li>
+                    <li>
+                        <p><b>Automatic Scrolling</b>: An innovative feature that navigates through each field, ensuring
+                            a user-friendly signing process.</p>
+                    </li>
+                    <li>
+                        <p><b>Document Finalization</b>: Upon all parties initializing, the document can be submitted
+                            and a finalized PDF is generated.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero container">
+                <h2 class="h2">Project Status and Future Plans</h2>
+                <div style="padding: 10px;">
+                    QuickEsigning is currently in an active development phase, with a strong focus on backend logic and
+                    functionality to ensure a
+                    robust and secure user experience. While the current UI design serves the application's needs,
+                    future iterations will
+                    see a greater emphasis on front-end enhancements to deliver a more refined and visually engaging
+                    interface and more features.
+                </div>
+            </div>
+            <div class="hero container">
+                <h2 class="h2">Conclusion</h2>
+                <div style="padding: 10px;">
+                    Crafting QuickEsigning from concept to launch was a challenging yet immensely rewarding experience.
+                    It
+                    pushed the boundaries
+                    of my problem-solving skills and solidified my passion for creating solutions that make everyday
+                    tasks more efficient
+                    and enjoyable.
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &#169; 2024, Manohar Ravulapalli
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
