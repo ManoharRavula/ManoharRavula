@@ -1624,7 +1624,9 @@ a {
   .container {
     max-width: 1200px;
   }
-
+  .ecommerce > li {
+    min-width: calc(63.33% - 6.66px) !important;
+  }
   .has-scrollbar > li {
     min-width: calc(33.33% - 16.66px);
   }
