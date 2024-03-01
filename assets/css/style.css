@@ -289,51 +289,6 @@ a {
   width: 15%;
 }
 
-
-.hass-scrollbar > li {
-  display: flex;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.hass-scrollbar img {
-  display: block;
-  width: 100%;
-  max-width: none; 
-  height: auto;
-  margin: 0 auto;
-}
-.hass-scrollbar::-webkit-scrollbar-track {
-  background: var(--cultured-2);
-  outline: 2px solid var(--cadet);
-  border-radius: 10px;
-}
-
-.hass-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--cadet);
-  border: 1px solid var(--cultured-2);
-  border-radius: 10px;
-}
-
-.hass-scrollbar::-webkit-scrollbar-button {
-  width: 15%;
-}
-.hass-scrollbar {
-    gap: 25px;
-    margin-inline: -25px;
-    padding-inline: 25px;
-    scroll-padding-left: 25px;
-  }
-  .hass-scrollbar > li {
-  min-width: calc(100% - 30px); /* Default to larger space on smaller screens */
-}
-
-@media (min-width: 768px) { /* Adjust breakpoint as necessary */
-  .hass-scrollbar > li {
-    min-width: calc(50% - 12.5px); /* Allow more items side by side on larger screens */
-  }
-  
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -1463,7 +1418,6 @@ a {
   /**
    * BLOG
    */
-
 
   .blog-title {
     font-size: 1.25rem;
